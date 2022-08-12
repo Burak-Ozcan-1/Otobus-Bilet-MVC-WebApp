@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="025c83e27b304186bb6a2942eeb165d9" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="Otobus_BiletModel.Bilet" Width="1.5" PointX="8.25" PointY="10.125" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Guzergah" Width="1.5" PointX="0.75" PointY="8.125" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Guzergah_Arayol" Width="1.5" PointX="3" PointY="6.875" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Guzergah_Tesis" Width="1.5" PointX="3" PointY="14" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.ILLER_MESAFE" Width="1.5" PointX="13.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Indirim_Artis" Width="1.5" PointX="6" PointY="3.5" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.ilceler" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.iller" Width="1.5" PointX="2.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Kodlar" Width="1.5" PointX="0.75" PointY="4.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Kullanici" Width="1.5" PointX="8.25" PointY="19.5" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Otobus" Width="1.5" PointX="3.75" PointY="10" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Otobus_Detay" Width="1.5" PointX="6" PointY="23.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Otobus_Ozellik" Width="1.5" PointX="6" PointY="27.25" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Parametre" Width="1.5" PointX="2.75" PointY="4.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Personel" Width="1.5" PointX="6" PointY="18.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Rezerve" Width="1.5" PointX="11.25" PointY="10.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Rol_Servis" Width="1.5" PointX="10" PointY="6.5" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Roller" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Sefer" Width="1.5" PointX="6" PointY="10.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Sefer_Arayol" Width="1.5" PointX="5.25" PointY="7" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Servis" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Tesis" Width="1.5" PointX="10.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Yolcu" Width="1.5" PointX="6" PointY="15.25" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Bilet_Indirim" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Bilet_Personel" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Bilet_Sefer" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Bilet_Yolcu" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Guzergah_Arayol_Guzergah" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Guzergah_Tesis_Guzergah" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Sefer_Guzergah" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Sefer_Arayol_Guzergah_Arayol" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Kullanici_Personel" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Otobus_Detay_Otobus" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Otobus_Ozellik_Otobus" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Sefer_Otobus" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Rezerve_Personel" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Rezerve_Sefer" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Rezerve_Yolcu" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Rol_Servis_Roller" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Rol_Servis_Servis" />
+        <AssociationConnector Association="Otobus_BiletModel.FK_Sefer_Arayol_Sefer" />
+        <EntityTypeShape EntityType="Otobus_BiletModel.Kredi_Karti" Width="1.5" PointX="8.375" PointY="15.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
